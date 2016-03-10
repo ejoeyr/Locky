@@ -7,9 +7,9 @@ on productive things like studying, working etc.
 
 # Features
 -Lock right away
--Night auto-lock
--Day and afternoon auto-lock
--Wifi and Silent mode options
+</br>-Night auto-lock
+</br>-Day and afternoon auto-lock
+</br>-Wifi and Silent mode options
 
 
 # Get the app
