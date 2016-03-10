@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Locky</string>
+    <string name="string_enable_admin">ENABLE ADMIN CONTROL</string>
+    <string name="string_disable_admin">DISABLE ADMIN CONTROL</string>
+    <string name="LOCK">LOCK NOW</string>
+    <string name="EXTRA_WAIT">EXTRA_WAIT</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="string_desired_time">Input your desired time</string>
+  
+    <string name="pref_instruction">PREF_INSTRUCTION</string>
+    <string name="pref_instruction_start">START</string>
+    <string name="pref_instruction_stop">STOP</string>
+    <string name="string_about_locky">
+        I wrote this program  to help everyone to focus on their work,
+        study or anything that helps boost productivity to avoid phone distractions.\n\nThis program
+        can also be used when you can\'t control yourself using your phone
+        at night.\n
+    </string>
+    <string name="EXTRA_WAIT_KEY">WAIT_KEY</string>
+
+    <string name="string_boot_completed">android.intent.action.BOOT_COMPLETED</string>
+    <string name="string_add_lock_screen">ADD UNLOCK SCREEN</string>
+    <string name="string_no_unlock_screen">We\'ve noticed that you don\'t have any screen unlock set of any type, would you like to add one now?</string>
+    <string name="string_no_unlock_screen_set">No screen unlock set</string>
+    <string name="string_lock_screen">LOCK DEVICE ANYWAY</string>
+    <string name="string_cancel">CANCEL</string>
+    <string name="string_continue">CONTINUE</string>
+    <string name="string_warning">Warning</string>
+    <string name="string_hour">hou</string>
+    <string name="string_min">min</string>
+    <string name="string_sec">sec</string>
+    <string name="string_request">REQUEST</string>
+    <string name="string_lock_device_at">Lock device at</string>
+    <string name="string_thank_you_already">Thanks but you already donated</string>
+    <string name="string_thank_you">Thank you so much!</string>
+    <string name="string_thanks_for_donation">Thanks for your donation!</string>
+    <!-- ///////////PREFERENCES/////////////////////////// -->
+    <string name="default_value_day">NO THANKS</string>
+    <string name="pref_show_warning">pref_show_warning</string>
+    <string name="pref_show_drunk_questions">pref_show_drunk_questions</string>
+    <string name="pref_show_driving_questions">pref_show_driving_questions</string>
+    <string name="pref_night_lock">pref_night_lock</string>
+    <string name="pref_list_hour_night">pref_list_hour</string>
+    <string name="pref_night_lock_wifi">pref_night_lock_wifi</string>
+    <string name="pref_night_lock_silent">pref_night_lock_silent</string>
+    <string name="pref_admin_mode">pref_admin_mode</string>
+    <string name="pref_night_category">night category</string>
+    <string name="pref_night_lock_time">pref_night_lock_time</string>
+    <string name="pref_random_locks">random locks</string>
+    <string name="pref_experimental">pref_experimental</string>
+    <string name="pref_day_lock_time">day lock</string>
+    <string name="pref_list_hour_day">day list</string>
+    <string name="pref_notification_message">pref_edit</string>
+
+</resources>

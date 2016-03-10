@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="GENERAL">
+
+
+        <CheckBoxPreference
+
+            android:defaultValue="true"
+            android:icon="@drawable/ic_alert_warning"
+            android:key="@string/pref_show_warning"
+            android:summary="Show warning on lock button?"
+            android:title="Show warning">
+
+
+        </CheckBoxPreference>
+
+        <EditTextPreference
+            android:maxLength="15"
+            android:defaultValue="FOCUS"
+            android:icon="@drawable/ic_communication_comment"
+            android:key="@string/pref_notification_message"
+            android:summary="Message when your phone is locked"
+            android:title="Custom Message"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_av_volume_off"
+            android:key="@string/pref_night_lock_silent"
+            android:summary="Turn silent mode on when locking"
+            android:title="Silent mode">
+
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_device_signal_cellular_off"
+            android:key="@string/pref_night_lock_wifi"
+            android:summary="Turn wifi off when locking"
+            android:title="Wifi-off">
+
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+
+        android:key="@string/pref_night_category"
+        android:title="AUTO-LOCK\n(NEEDS ADMIN MODE)">
+
+
+        <ListPreference
+            android:defaultValue="@string/default_value"
+            android:entries="@array/hour_entries_day"
+            android:entryValues="@array/hour_values_day"
+            android:icon="@drawable/ic_image_wb_sunny"
+            android:key="@string/pref_list_hour_day"
+            android:dialogTitle="@string/string_lock_device_at"
+            android:summary="Auto-lock your phone during daytime?"
+            android:title="Daytime Auto-lock" />
+
+        <ph.locko.locky.custom.NumberDialogPreference
+            android:defaultValue="2"
+            android:dialogTitle="Day Lock for how many hours?"
+            android:icon="@drawable/ic_action_alarm"
+            android:key="@string/pref_day_lock_time"
+            android:summary="Lock for how many hours in the day?"
+            android:title="Day lock time" />
+
+
+        <ListPreference
+            android:defaultValue="@string/default_value"
+            android:entries="@array/hour_entries_night"
+            android:entryValues="@array/hour_values_night"
+            android:icon="@drawable/ic_image_brightness_2"
+            android:key="@string/pref_list_hour_night"
+            android:summary="Auto-lock your phone during night-time?"
+            android:dialogTitle="@string/string_lock_device_at"
+            android:title="Night Auto-lock">
+
+
+        </ListPreference>
+
+        <ph.locko.locky.custom.NumberDialogPreference
+            android:defaultValue="8"
+            android:dialogTitle="Night Lock for how many hours?"
+            android:icon="@drawable/ic_action_alarm"
+            android:key="@string/pref_night_lock_time"
+            android:summary="Lock for how many hours in the night?"
+            android:title="Night lock time" />
+
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
+
+
