@@ -15,5 +15,4 @@ on productive things like studying, working etc.
 # Get the app
 https://play.google.com/store/apps/details?id=ph.locko.locky&hl=en
 
-# Thanks
 
